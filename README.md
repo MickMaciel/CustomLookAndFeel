@@ -1,2 +1,2 @@
 # CustomLookAndFeel
-Custom JUCE Framework LookAndFeel Class Sample
+Custom JUCE Framework LookAndFeel Class Samples
