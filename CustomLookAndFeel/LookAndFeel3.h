@@ -4,29 +4,29 @@
 
 namespace Colors
 {
-    const juce::Colour background { juce::Colour(1, 1, 1) }; // Very light grey background
-    const juce::Colour header { juce::Colour(50, 50, 50) }; // Dark grey header
+    const juce::Colour background { juce::Colour(1, 1, 1) }; 
+    const juce::Colour header { juce::Colour(50, 50, 50) }; 
     
     namespace Knob
     {
-        const juce::Colour trackBackground { juce::Colour(220, 220, 220) }; // Light grey track background
-        const juce::Colour trackActive { juce::Colour(150, 150, 150) }; // Medium grey track active
-        const juce::Colour outline { juce::Colour(240, 240, 240) }; // Light grey outline
-        const juce::Colour gradientTop { juce::Colour(180, 180, 180) }; // Medium grey gradient top
-        const juce::Colour gradientBottom { juce::Colour(1, 1, 1) }; // Medium grey gradient bottom
-        const juce::Colour dial { juce::Colour(10, 10, 10) }; // Almost black dial
-        const juce::Colour dropShadow { juce::Colour(150, 150, 150) }; // Medium grey drop shadow
-        const juce::Colour label { juce::Colour(60, 60, 60) }; // Dark grey label
-        const juce::Colour textBoxBackground { juce::Colour(23, 23, 23) }; // Light grey text box background
-        const juce::Colour value { juce::Colour(240, 240, 240) }; // Dark grey value text
-        const juce::Colour caret { juce::Colour(60, 60, 60) }; // Dark grey caret
+        const juce::Colour trackBackground { juce::Colour(220, 220, 220) }; 
+        const juce::Colour trackActive { juce::Colour(150, 150, 150) }; 
+        const juce::Colour outline { juce::Colour(240, 240, 240) }; 
+        const juce::Colour gradientTop { juce::Colour(180, 180, 180) }; 
+        const juce::Colour gradientBottom { juce::Colour(1, 1, 1) }; 
+        const juce::Colour dial { juce::Colour(10, 10, 10) }; 
+        const juce::Colour dropShadow { juce::Colour(150, 150, 150) }; 
+        const juce::Colour label { juce::Colour(60, 60, 60) }; 
+        const juce::Colour textBoxBackground { juce::Colour(23, 23, 23) }; 
+        const juce::Colour value { juce::Colour(240, 240, 240) }; 
+        const juce::Colour caret { juce::Colour(60, 60, 60) }; 
     }
     
     namespace Button
     {
-        const juce::Colour text { juce::Colour(60, 60, 60) }; // Dark grey text
-        const juce::Colour background { juce::Colour(21, 21, 21) }; // grey background
-        const juce::Colour border { juce::Colour(180, 180, 180) }; // Medium grey border
+        const juce::Colour text { juce::Colour(60, 60, 60) }; 
+        const juce::Colour background { juce::Colour(21, 21, 21) }; 
+        const juce::Colour border { juce::Colour(180, 180, 180) }; 
     }
 }
 
