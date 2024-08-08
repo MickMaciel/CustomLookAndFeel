@@ -2,10 +2,8 @@
 
 LookAndFeel::LookAndFeel()
 {
-    // Color for the text inside the popup
     setColour(juce::TooltipWindow::textColourId, juce::Colours::lightgrey);
 
-    // Colors for the popup bubble
     setColour(juce::BubbleComponent::backgroundColourId, juce::Colours::black);
     setColour(juce::BubbleComponent::outlineColourId, juce::Colours::lightgrey);
 
@@ -105,7 +103,6 @@ void LookAndFeel::drawBubble(
     const juce::Point<float>& tip,
     const juce::Rectangle<float>& body)
 {
-    // Draw tip above or below the bubble?
     float adjustedY = tip.y + ((tip.y > body.getBottom()) ? -6.0f : 6.0f);
 
     juce::Path path;
